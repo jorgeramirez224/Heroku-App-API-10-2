@@ -6,10 +6,10 @@ carController.getCars = async (req, res) => {
     res.json(cars);
 };
 
-carController.addCar = async (req, res) => {
+/*carController.addCar = async (req, res) => {
     const car = new carModel(req.body);
     await car.save();
     res.json({ 'status': 'Auto almacenado exitosamente' });
-};
+};*/
 
 module.exports = carController;
